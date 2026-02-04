@@ -6,11 +6,11 @@ import Contact from "./pages/contact/Contact";
 import Header from "./components/header/Header";
 import NotFound from "./pages/notFound/NotFound";
 import Footer from "./components/footer/Footer";
-import SinglePage from "./pages/singlePage/SinglePage";
 
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import SinglePage from "./pages/SinglePage/SinglePage";
 
 function App() {
   useEffect(() => {
