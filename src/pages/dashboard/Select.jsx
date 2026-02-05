@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./singlepage.css";
 
-function SinglePage() {
+function Select() {
   let { id } = useParams();
 
   const [data, setData] = useState(null);
@@ -144,4 +144,4 @@ function SinglePage() {
   );
 }
 
-export default SinglePage;
+export default Select;
