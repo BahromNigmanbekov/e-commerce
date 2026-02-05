@@ -11,7 +11,7 @@ import Footer from "./components/footer/Footer";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import SinglePage from "./pages/dashboard/SinglePage";
+import SinglePage from "./pages/dashboard/Select";
 
 
 
