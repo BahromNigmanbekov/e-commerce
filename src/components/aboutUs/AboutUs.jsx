@@ -3,7 +3,6 @@ import "./aboutUs.css";
 
 import { NavLink } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
-// import image from "../../assets/image.svg";
 import fet from "../../assets/zoo_fet.jpg"
 
 function AboutUs() {
