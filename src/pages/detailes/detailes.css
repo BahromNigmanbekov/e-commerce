@@ -228,4 +228,7 @@
   width: 100%;
   justify-content: center;
 }
+.buyForm button{
+    margin-bottom: 20px;
+}
 }
