@@ -204,3 +204,28 @@
   border: none;
   cursor: pointer;
 }
+
+@media (max-width: 750px) {
+  .productCenter{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .productLeftImg {
+    width: 200%;
+    height: 400px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+  .productCenter {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+}

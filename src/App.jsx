@@ -6,12 +6,13 @@ import Contact from "./pages/contact/Contact";
 import Header from "./components/header/Header";
 import NotFound from "./pages/notFound/NotFound";
 import Footer from "./components/footer/Footer";
-import Select from "./pages/dashboard/select";
 
 
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Detailes from "./pages/detailes/Detailes";
+
 
 
 
@@ -30,7 +31,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/select/:id" element={<Select />} />
+        <Route path="/detailes/:id" element={<Detailes />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

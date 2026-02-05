@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import "./singlepage.css";
+import React, { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom';
+import "./detailes.css";
 
-function Select() {
+function Detailes() {
+
   let { id } = useParams();
 
   const [data, setData] = useState(null);
@@ -75,7 +76,7 @@ function Select() {
   };
 
   return (
-    <section className="section">
+     <section className="section">
       <div className="container">
         <div className="productContainer">
           <div className="productCenter">
@@ -141,7 +142,7 @@ function Select() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Select;
+export default Detailes

@@ -8,7 +8,7 @@ function ProductItem({ id, image, price, title, index }) {
 
   return (
     <div className="product-card" data-aos={chosenAnimation}>
-      <NavLink to={`/select/${id}`} className="product-link">
+      <NavLink to={`/detailes/${id}`} className="product-link">
         <div className="product-image-box">
           <span className="sold-out-badge">Sold out</span>
 
